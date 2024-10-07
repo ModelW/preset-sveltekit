@@ -1,6 +1,6 @@
 {
     "name": "@model-w/preset-sveltekit",
-    "version": "2024.10.0",
+    "version": "2024.10.1",
     "type": "module",
     "description": "Preset of Sveltekit for ModelW",
     "license": "WTFPL",
