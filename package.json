@@ -1,6 +1,6 @@
 {
     "name": "@model-w/preset-sveltekit",
-    "version": "2024.10.2",
+    "version": "2024.10.3",
     "type": "module",
     "description": "Preset of Sveltekit for ModelW",
     "license": "WTFPL",
@@ -43,8 +43,8 @@
         "@sveltejs/vite-plugin-svelte": "3.1.x",
         "@types/eslint": "8.56.x",
         "@types/node": "22.7.x",
-        "@typescript-eslint/eslint-plugin": "8.8.x",
-        "@typescript-eslint/parser": "8.8.x",
+        "@typescript-eslint/eslint-plugin": "7.18.x",
+        "@typescript-eslint/parser": "7.18.x",
         "eslint": "8.57.x",
         "eslint-config-prettier": "9.1.x",
         "eslint-plugin-svelte": "2.44.x",
