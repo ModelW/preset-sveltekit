@@ -39,7 +39,7 @@
     "peerDependencies": {
         "@sentry/sveltekit": "9.27.x",
         "@sveltejs/adapter-node": "5.2.x",
-        "@sveltejs/kit": "2.21.x",
+        "@sveltejs/kit": "2.20.x",
         "@sveltejs/vite-plugin-svelte": "5.1.x",
         "@types/eslint": "9.6.x",
         "@types/node": "22.15.x",
