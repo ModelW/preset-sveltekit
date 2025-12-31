@@ -25,6 +25,16 @@ jobs:
               env:
                   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
+            - name: Determine npm tag
+              id: npm-tag
+              run: |
+                  VERSION=$(node -p "require('./package.json').version")
+                  if [[ "$VERSION" =~ -beta ]]; then
+                    echo "tag=beta" >> $GITHUB_OUTPUT
+                  else
+                    echo "tag=latest" >> $GITHUB_OUTPUT
+                  fi
+
             - name: Publish package
               run: |
-                  npm publish --access public
+                  npm publish --access public --tag ${{ steps.npm-tag.outputs.tag }}
