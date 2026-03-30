@@ -1,6 +1,6 @@
 {
     "name": "@model-w/preset-sveltekit",
-    "version": "2026.1.0",
+    "version": "2026.4.0-beta.1",
     "type": "module",
     "description": "Preset of Sveltekit for ModelW",
     "license": "WTFPL",
@@ -37,26 +37,26 @@
         "node": "24.x"
     },
     "peerDependencies": {
-        "@sentry/sveltekit": "10.32.x",
-        "@sveltejs/adapter-node": "5.4.x",
-        "@sveltejs/kit": "2.49.x",
+        "@sentry/sveltekit": "10.46.x",
+        "@sveltejs/adapter-node": "5.5.x",
+        "@sveltejs/kit": "2.55.x",
         "@sveltejs/vite-plugin-svelte": "6.2.x",
         "@types/eslint": "9.6.x",
         "@types/node": "24.x.x",
-        "@typescript-eslint/eslint-plugin": "8.51.x",
-        "@typescript-eslint/parser": "8.51.x",
-        "eslint": "9.39.x",
+        "@typescript-eslint/eslint-plugin": "8.57.x",
+        "@typescript-eslint/parser": "8.57.x",
+        "eslint": "10.1.x",
         "eslint-config-prettier": "10.1.x",
-        "eslint-plugin-svelte": "3.13.x",
-        "prettier": "3.7.x",
-        "prettier-plugin-svelte": "3.4.x",
-        "sass": "1.97.x",
-        "svelte": "5.46.x",
-        "svelte-check": "4.3.x",
+        "eslint-plugin-svelte": "3.16.x",
+        "prettier": "3.8.x",
+        "prettier-plugin-svelte": "3.5.x",
+        "sass": "1.98.x",
+        "svelte": "5.55.x",
+        "svelte-check": "4.4.x",
         "tslib": "2.8.x",
         "typescript": "5.9.x",
         "vite": "7.3.x",
-        "vitest": "3.2.x"
+        "vitest": "4.1.x"
     },
     "overrides": {
         "cookie": "^0.7.0"
