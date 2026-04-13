@@ -1,6 +1,6 @@
 {
     "name": "@model-w/preset-sveltekit",
-    "version": "2026.4.0",
+    "version": "2026.4.1",
     "type": "module",
     "description": "Preset of Sveltekit for ModelW",
     "license": "WTFPL",
@@ -39,7 +39,7 @@
     "peerDependencies": {
         "@sentry/sveltekit": "10.46.x",
         "@sveltejs/adapter-node": "5.5.x",
-        "@sveltejs/kit": "2.55.x",
+        "@sveltejs/kit": "2.57.x",
         "@sveltejs/vite-plugin-svelte": "6.2.x",
         "@types/eslint": "9.6.x",
         "@types/node": "24.x.x",
