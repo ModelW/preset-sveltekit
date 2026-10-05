@@ -7,7 +7,7 @@ endif
 
 release:
 	git flow release start $(VERSION)
-	npm version $(VERSION)
-	git add package.json package-lock.json
+	pnpm version $(VERSION)
+	git add package.json pnpm-lock.yaml
 	git commit -m "Bump version to $(VERSION)"
 	git flow release finish -m "Release $(VERSION)" $(VERSION) > /dev/null
